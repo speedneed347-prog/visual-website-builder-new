@@ -18,6 +18,6 @@ cat > tsconfig.json <<'EOF'
     "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src", "tests"]
 }
 EOF
